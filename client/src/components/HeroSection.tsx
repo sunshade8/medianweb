@@ -48,6 +48,19 @@ export default function HeroSection() {
           Median
         </motion.h1>
         
+        <motion.div variants={itemVariants} className="mb-8">
+          <motion.a
+            href="https://test.lautrec.kr"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-gray-800 border border-gray-600 text-white px-6 py-3 rounded-full text-sm font-medium hover:bg-gray-700 hover:border-gray-500 transition-all duration-300"
+            whileHover={{ scale: 1.05, y: -2 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            정치 성향 테스트 하러가기
+          </motion.a>
+        </motion.div>
+        
         <motion.p
           className="text-xl md:text-2xl text-gray-300 mb-8 font-light leading-relaxed max-w-3xl mx-auto"
           variants={itemVariants}
