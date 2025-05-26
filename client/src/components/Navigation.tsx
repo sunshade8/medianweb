@@ -44,7 +44,7 @@ export default function Navigation() {
               onClick={() => scrollToSection("service")}
               className="text-gray-300 hover:text-white transition-colors duration-300"
             >
-              AI 여론조사
+              서비스
             </button>
             <button
               onClick={() => scrollToSection("contact")}

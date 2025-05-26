@@ -59,8 +59,8 @@ export default function HeroSection() {
           className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed"
           variants={itemVariants}
         >
-          인공지능 기술로 여론조사의 새로운 패러다임을 제시하며, 
-          정확하고 신뢰할 수 있는 데이터 분석을 통해 사회의 목소리를 전달합니다.
+          AI 여론조사와 중립뉴스를 통해 정확하고 객관적인 정보를 제공하며, 
+          편향 없는 데이터 분석으로 사회의 진실한 목소리를 전달합니다.
         </motion.p>
         
         <motion.div
@@ -73,7 +73,7 @@ export default function HeroSection() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            AI 여론조사 알아보기
+            서비스 알아보기
           </motion.button>
           <motion.button
             onClick={() => scrollToSection("about")}
