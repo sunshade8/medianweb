@@ -45,7 +45,7 @@ export default function ContactSection() {
           className="text-xl text-gray-300 mb-12 leading-relaxed max-w-3xl mx-auto"
           variants={itemVariants}
         >
-          AI 여론조사의 혁신적인 여정에 동참하여 더 나은 사회를 만들어가세요. 
+          AI 지지율 분석의 혁신적인 여정에 동참하여 더 나은 사회를 만들어가세요. 
           정확한 데이터와 인사이트로 의미 있는 변화를 이끌어내겠습니다.
         </motion.p>
         

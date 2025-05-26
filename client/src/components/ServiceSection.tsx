@@ -46,12 +46,12 @@ export default function ServiceSection() {
         <motion.div className="text-center mb-16" variants={itemVariants}>
           <h2 className="text-4xl md:text-5xl font-light mb-6 gradient-text">우리의 서비스</h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            AI 여론조사와 중립뉴스로 정확하고 객관적인 정보를 제공합니다
+            AI 지지율 분석과 중립뉴스로 정확하고 객관적인 정보를 제공합니다
           </p>
           <div className="w-24 h-0.5 bg-white mx-auto mt-8 opacity-30"></div>
         </motion.div>
 
-        {/* AI 여론조사 Section */}
+        {/* AI 지지율 분석 Section */}
         <div className="grid lg:grid-cols-2 gap-16 items-center mb-32">
           <motion.div className="order-2 lg:order-1" variants={itemVariants}>
             <motion.img
@@ -64,9 +64,9 @@ export default function ServiceSection() {
           </motion.div>
           
           <motion.div className="order-1 lg:order-2 space-y-8" variants={itemVariants}>
-            <h3 className="text-3xl md:text-4xl font-light text-white">AI 여론조사</h3>
+            <h3 className="text-3xl md:text-4xl font-light text-white">AI 지지율 분석</h3>
             <p className="text-lg text-gray-300 leading-relaxed">
-              기존 여론조사의 편향성과 한계를 극복하고, AI 기술을 통해 
+              기존 지지율 조사의 편향성과 한계를 극복하고, AI 기술을 통해 
               더욱 정확하고 포괄적인 민심을 파악할 수 있는 혁신적인 플랫폼을 개발하고 있습니다.
             </p>
             
@@ -78,7 +78,7 @@ export default function ServiceSection() {
                 <div className="w-6 h-6 bg-white rounded-full flex-shrink-0 mt-1"></div>
                 <div>
                   <h4 className="text-lg font-medium text-white mb-2">실시간 감정 분석</h4>
-                  <p className="text-gray-400">소셜미디어와 온라인 데이터를 실시간으로 분석하여 여론 변화를 즉시 감지합니다.</p>
+                  <p className="text-gray-400">소셜미디어와 온라인 데이터를 실시간으로 분석하여 지지율 변화를 즉시 감지합니다.</p>
                 </div>
               </motion.div>
               
@@ -100,7 +100,7 @@ export default function ServiceSection() {
                 <div className="w-6 h-6 bg-white rounded-full flex-shrink-0 mt-1"></div>
                 <div>
                   <h4 className="text-lg font-medium text-white mb-2">예측 모델링</h4>
-                  <p className="text-gray-400">과거 데이터와 현재 트렌드를 분석하여 미래 여론 변화를 예측합니다.</p>
+                  <p className="text-gray-400">과거 데이터와 현재 트렌드를 분석하여 미래 지지율 변화를 예측합니다.</p>
                 </div>
               </motion.div>
             </div>

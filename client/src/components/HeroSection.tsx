@@ -72,7 +72,7 @@ export default function HeroSection() {
           className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed"
           variants={itemVariants}
         >
-          AI 여론조사와 중립뉴스를 통해 정확하고 객관적인 정보를 제공하며, 
+          AI 지지율 분석과 중립뉴스를 통해 정확하고 객관적인 정보를 제공하며, 
           편향 없는 데이터 분석으로 사회의 진실한 목소리를 전달합니다.
         </motion.p>
         
